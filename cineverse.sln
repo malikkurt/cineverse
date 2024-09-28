@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cineverse", "cineverse\cineverse.csproj", "{4EF6E14F-28C2-4231-8EEB-524A62A448F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cineverse", "cineverse\cineverse.csproj", "{4EF6E14F-28C2-4231-8EEB-524A62A448F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cineverse.Entities", "Cineverse.Entities\Cineverse.Entities.csproj", "{01A5819B-7D0A-48A4-B230-35646AB500FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cineverse.Business", "Cineverse.Business\Cineverse.Business.csproj", "{192817A3-83B0-4FE9-96B4-77217B8188C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cineverse.Presentation", "Cineverse.Presentation\Cineverse.Presentation.csproj", "{ACDE9180-B77B-4FB9-9865-EFC6640DBB68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cineverse.Data", "Cineverse.Data\Cineverse.Data.csproj", "{D088E221-48B1-4740-A614-4775C208DB1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{4EF6E14F-28C2-4231-8EEB-524A62A448F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EF6E14F-28C2-4231-8EEB-524A62A448F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EF6E14F-28C2-4231-8EEB-524A62A448F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01A5819B-7D0A-48A4-B230-35646AB500FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01A5819B-7D0A-48A4-B230-35646AB500FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01A5819B-7D0A-48A4-B230-35646AB500FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01A5819B-7D0A-48A4-B230-35646AB500FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{192817A3-83B0-4FE9-96B4-77217B8188C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192817A3-83B0-4FE9-96B4-77217B8188C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192817A3-83B0-4FE9-96B4-77217B8188C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192817A3-83B0-4FE9-96B4-77217B8188C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACDE9180-B77B-4FB9-9865-EFC6640DBB68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACDE9180-B77B-4FB9-9865-EFC6640DBB68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACDE9180-B77B-4FB9-9865-EFC6640DBB68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACDE9180-B77B-4FB9-9865-EFC6640DBB68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D088E221-48B1-4740-A614-4775C208DB1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D088E221-48B1-4740-A614-4775C208DB1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D088E221-48B1-4740-A614-4775C208DB1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D088E221-48B1-4740-A614-4775C208DB1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
