@@ -51,5 +51,11 @@
   <ItemGroup>
     <Folder Include="Services\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cineverse.Entities\Cineverse.Entities.csproj">
+      <Project>{01a5819b-7d0a-48a4-b230-35646ab500fd}</Project>
+      <Name>Cineverse.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
