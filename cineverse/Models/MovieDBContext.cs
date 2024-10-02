@@ -8,7 +8,7 @@ namespace cineverse.Models
         {
         }
 
-        public DbSet<Movie> Movies { get; set; }
+        //public DbSet<Movie> Movies { get; set; }
         //public DbSet<TVShow> TVShows { get; set; }
         //public DbSet<User> Users { get; set; }
         //public DbSet<Review> Reviews { get; set; }
